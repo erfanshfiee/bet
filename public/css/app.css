@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 15pt;
+    font-family: BYekan,sans-serif;
+    color:white;
+}
+body{
+    background: rgb(1,10,15);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 30px;
+}
+@font-face{
+    font-family: BikinisPersonalUse;
+    src:url("/fonts/BikinisPersonalUse.ttf");
+}
+
+@font-face{
+    font-family: BYekan;
+    src:url("/fonts/BYekan.ttf");
+}
+
+@font-face{
+    font-family: cat;
+    src:url("/fonts/cat.otf");
+}
+
+.games{
+    width:100px;
+    height: 100px;
+}
+.game-name{
+    background: black;
+    max-width: max-content;
+    max-height: max-content;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.game-text{
+    padding:10px;
+}
+.game-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+#profile{
+    grid-area: profile;
+}
+#newEx{
+    grid-area: newEx;
+}
+#nextToornament{
+    grid-area: nextToornament;
+}
+#badbitJackpot{
+    grid-area: badbitJackpot;
+}
+#rickBack{
+    grid-area: rickBack;
+}
+
+.main-items{
+    background: rgb(0,15,22);
+    border:3px solid rgb(1,12,18);
+    border-radius: 5px;
+}
+button:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+#app{
+    min-height: 100vh;
+}
+.title{
+    font-weight: 600;
+    font-size:20pt;
+    color:white
+}
