@@ -62,4 +62,75 @@
         align-content: center;
     }
 
+
+
+
+    @media screen and (min-width: 320px) and (max-width: 580px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-areas:
+                'cart-to-cart'
+                'bit-coin'
+                'woocher'
+                'last-cash-out'
+        ;
+            justify-items: center;
+            align-content: center;
+
+        }
+    }
+    @media screen and (min-width: 581px) and (max-width: 880px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            column-gap: 0;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas:
+                'cart-to-cart cart-to-cart'
+                'bit-coin woocher'
+                'last-cash-out last-cash-out'
+        ;
+            justify-items: center;
+            justify-content: center;
+
+        }
+
+    }
+
+
+
+
+    @media screen and (min-width: 881px) and (max-width: 1300px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            column-gap: 0;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-areas:
+                'cart-to-cart cart-to-cart bit-coin bit-coin woocher woocher'
+                'last-cash-out last-cash-out last-cash-out last-cash-out last-cash-out last-cash-out'
+        ;
+            justify-items: center;
+            justify-content: center;
+
+        }
+    }
+
 </style>

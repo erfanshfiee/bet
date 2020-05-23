@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 15pt;
     font-family: BYekan,sans-serif;
+    -webkit-box-sizing: border-box;
     color:white;
 }
 body{
@@ -15,6 +16,9 @@ body{
 @font-face{
     font-family: BikinisPersonalUse;
     src:url("/fonts/BikinisPersonalUse.ttf");
+}
+input:focus{
+    border: 0;
 }
 
 @font-face{
@@ -41,6 +45,11 @@ body{
 
 .game-text{
     padding:10px;
+}
+.a-like-button{
+    background: rgb(0,0,0);
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
 }
 .game-items{
     display: flex;

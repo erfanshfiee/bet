@@ -41,5 +41,27 @@
         justify-content: center;
         padding:20px 100px 20px 100px;
         align-items: center;
+        max-width: max-content;
     }
+    @media screen and (max-width: 650px) and (min-width: 320px){
+        #all-games{
+            display: flex;
+            flex-direction: column;
+        }
+        #main-games{
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #all-games{
+            display: flex;
+            justify-content: center;
+            padding:0;
+            align-items: center;
+            max-width: max-content;
+        }
+    }
+
 </style>
+

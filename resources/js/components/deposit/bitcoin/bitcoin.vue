@@ -70,6 +70,49 @@
     #bit-coin{
         grid-area: bit-coin;
     }
+
+
+    @media screen and (min-width: 320px) and (max-width: 580px) {
+        #bit-coin{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        #cart-to-cart-wrapper{
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #describe p{
+        }
+        .display{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+
+        }
+        form
+        {
+            width: 100%;
+        }
+        input{
+            max-width: 250px;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+
+    @media screen and (min-width: 581px) and (max-width: 880px) {
+        #bit-coin{
+            margin-left: auto;
+        }
+    }
+
 </style>
 
 

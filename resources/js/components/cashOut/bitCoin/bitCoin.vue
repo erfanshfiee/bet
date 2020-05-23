@@ -73,6 +73,25 @@
     #bit-coin{
         grid-area: bit-coin;
     }
+    @media screen and (min-width: 320px) and (max-width: 581px) {
+        #bit-coin{
+            width: 100%;
+            margin: auto;
+        }
+        #bit-coin-wrapper{
+            width: 100%;
+        }
+        form{
+            width: 100%;
+        }
+
+
+    }
+    @media screen and (min-width: 581px) and (max-width: 880px) {
+        #bit-coin{
+            /*margin-left: auto;*/
+        }
+    }
 </style>
 
 

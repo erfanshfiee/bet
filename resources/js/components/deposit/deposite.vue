@@ -12,25 +12,8 @@
     </div>
 </template>
 
-<script>
-    import bitcoin from "./bitcoin/bitcoin.vue";
-    import woocher from "./woocher/woocher.vue";
-    import cartToCart from "./cartToCart/cartToCart.vue";
-    import lastDeposit from "./lastDeposit/lastDeposit";
-    import depositText from "./depositText/depositText";
-    export default {
-        name: "deposite",
-        components:{
-            bitCoin:bitcoin,
-            depositText,
-            woocher,
-            cartToCart,
-            lastDeposit
-        }
-    }
-</script>
-
 <style scoped>
+
     p{
         font-size: 20pt;
         font-weight: 500;
@@ -61,4 +44,91 @@
         justify-items: center;
         align-content: center;
     }
+    @media screen and (min-width: 320px) and (max-width: 580px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-areas:
+                'cart-to-cart'
+                'bit-coin'
+                'woocher'
+                'last-cash-out'
+        ;
+            justify-items: center;
+            align-content: center;
+
+        }
+    }
+    @media screen and (min-width: 581px) and (max-width: 880px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            column-gap: 0;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas:
+                'cart-to-cart cart-to-cart'
+                'bit-coin woocher'
+                'last-cash-out last-cash-out'
+        ;
+            justify-items: center;
+            justify-content: center;
+
+        }
+
+    }
+
+
+
+
+    @media screen and (min-width: 881px) and (max-width: 1365px){
+        #cash-out{
+            background: rgb(0,18,28);
+            padding-bottom: 20px;
+            width:100%;
+        }
+        #el-wrapping{
+            width: 100%;
+            display: grid;
+            column-gap: 0;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-areas:
+                'cart-to-cart cart-to-cart bit-coin bit-coin woocher woocher'
+                'last-cash-out last-cash-out last-cash-out last-cash-out last-cash-out last-cash-out'
+        ;
+            justify-items: center;
+            justify-content: center;
+
+        }
+    }
 </style>
+<script>
+    import bitcoin from "./bitcoin/bitcoin.vue";
+    import woocher from "./woocher/woocher.vue";
+    import cartToCart from "./cartToCart/cartToCart.vue";
+    import lastDeposit from "./lastDeposit/lastDeposit";
+    import depositText from "./depositText/depositText";
+    export default {
+        name: "deposite",
+        components:{
+            bitCoin:bitcoin,
+            depositText,
+            woocher,
+            cartToCart,
+            lastDeposit
+        }
+    }
+
+
+</script>
+

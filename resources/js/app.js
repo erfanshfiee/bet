@@ -19,6 +19,7 @@ const router=new VueRouter({
     mode:"history",
     routes
 })
+// require('vue2-animate/dist/vue2-animate.min.css')
 const app = new Vue({
     el: '#app',
     router,

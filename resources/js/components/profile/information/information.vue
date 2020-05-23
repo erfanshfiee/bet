@@ -2,42 +2,45 @@
     <div id="information">
         <p class="title">:جزئیات حساب کاربری</p>
         <div id="information-wrapper" class="main-items">
-            <div id="user-name" class="inputs">
-                <p>نام کاربری:</p>
-                <div class="user-information-text">
-                    <p id="user-name-text">jThePSY</p>
+            <form action="">
+                <div id="user-name" class="inputs">
+                    <p>نام کاربری:</p>
+                    <div class="user-information-text info">
+                        <p id="user-name-text">jThePSY</p>
+                    </div>
                 </div>
-            </div>
-            <div id="user-email" class="inputs">
-                <p>ادرس ایمیل:</p>
-                <div class="user-information-text">
-                    <p>example@gmail.com</p>
+                <div id="user-email" class="inputs">
+                    <p>ادرس ایمیل:</p>
+                    <div class="user-information-text info">
+                        <p>example@gmail.com</p>
+                    </div>
                 </div>
-            </div>
-            <div id="user-phone" class="inputs">
-                <p>شماره موبایل:</p>
-                <div class="user-information-text">
-                    <p>093315632458</p>
+                <div id="user-phone" class="inputs">
+                    <p>شماره موبایل:</p>
+                    <div class="user-information-text info">
+                        <p>093315632458</p>
+                    </div>
                 </div>
-            </div>
 
-            <div id="user-name-input" class="inputs">
-                <p>نام:</p>
-                <div class="user-information-text">
-                    <input type="text" value="john smith">
+                <div id="user-name-input" class="inputs">
+                    <p>نام:</p>
+                    <div class="user-information-text">
+                        <input type="text" value="john smith">
+                    </div>
                 </div>
-            </div>
 
-            <div id="user-image" class="inputs">
-                <p>اواتار:</p>
-                <div class="user-information-text">
-                    <div id="file-peeker"></div>
+                <div id="user-image" class="inputs">
+                    <p>اواتار:</p>
+                    <div class="user-information-text">
+                        <div id="file-peeker"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div id="user-submit" class="inputs">
-                <button type="submit">ثبت</button>
-            </div>
+                <div id="user-submit" class="inputs">
+                    <button type="submit">ثبت</button>
+                </div>
+            </form>
+
 
 
         </div>
@@ -76,7 +79,10 @@
     .user-information-text{
         display: flex;
         justify-content: flex-start;
-        width:100%;
+        max-width:max-content;
+    }
+    .info{
+        max-width: 90%;
     }
     #user-name-text{
         color: rgb(229,143,126);
@@ -121,13 +127,16 @@
         display: flex;
         align-items: flex-end;
         justify-content: flex-start;
+        /*padding:10px;*/
         flex-direction: column;
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 599px) and (min-width: 320px) {
+
         #information{
             width:100%;
             border-right: 0;
             padding:0;
+            margin: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -141,7 +150,8 @@
             align-items: center;
         }
         #information-wrapper{
-            width:320px;
+            width:100%;
+
         }
         .user-information-text{
             width: 300px;
@@ -153,19 +163,116 @@
             border:0;
             padding-left:10px;
         }
-        .user-information-text p{
-            width: 320px;
-            padding:0;
-        }
         .inputs{
-            width:300px;
+            width:100%;
             display: flex;
             margin:0;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
+        }
+        .inputs p{
+            min-width: max-content;
+            text-align: left;
+            font-size:14pt;
+            padding:0
+        }
+        p{
+            max-width: max-content;
+            padding: 0;
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+        }
+        .info p{
+            padding:0
         }
         #user-name-input .inputs{
             margin:0;
+        }
+    }
+
+
+
+    @media screen and (max-width: 1300px) and (min-width: 600px) {
+
+        #information{
+            width:100%;
+            border-right: 0;
+            padding:0;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-left: 0;
+        }
+        #user-submit{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        #information-wrapper{
+            width:100%;
+
+        }
+        .user-information-text{
+            width: 300px;
+            padding:0;
+            margin:0;
+        }
+        .user-information-text input{
+            width: 200px;
+            border:0;
+            padding-left:10px;
+        }
+        .inputs{
+            width:100%;
+            display: flex;
+            margin:0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .inputs p{
+            min-width: max-content;
+            text-align: left;
+            font-size:14pt;
+            padding:0
+        }
+        p{
+            max-width: max-content;
+            padding: 0;
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+        }
+        .info p{
+            padding:0
+        }
+        #user-name-input .inputs{
+            margin:0;
+        }
+    }
+
+
+
+
+    @media screen and (max-width: 1100px) and (min-width: 800px)
+    {
+        #information-wrapper{
+            padding:10px;
+            padding-right: 0;
+            min-height: 100%;
+
+        }
+        #information{
+            min-height: 100%;
+            flex:1;
+            padding:0
         }
     }
 </style>

@@ -25,6 +25,9 @@
         padding:7px;
         border-radius: 8px;
     }
+    #price{
+        width: max-content;
+    }
     #image{
         display: flex;
         justify-content: flex-end;
@@ -45,8 +48,9 @@
         max-width: max-content;
         /*padding:20px 108px 20px 108px;*/
         padding:20px;
-        margin-left: auto;
         padding-left: 80px;
+        width: 95%;
+        /*margin-left: auto;*/
     }
     #badbit-content{
         display: flex;
@@ -64,5 +68,63 @@
     img{
         width: 75px;
         height: 75px;
+    }
+    @media screen and (max-width: 650px) and (min-width: 320px) {
+        #badbitJackpot
+        {
+            display: flex;
+            margin-top: 10px;
+            justify-content: flex-end;
+            align-items: flex-start;
+            min-width: 100%;
+            height: 250px;
+            padding:0
+        }
+        #image{
+            margin:0
+        }
+
+    }
+    @media screen and (max-width: 650px) and (min-width: 320px) {
+        #badbitJackpot
+        {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: flex-start;
+            min-width: 100%;
+            height: 250px;
+            padding:0
+        }
+        #image{
+            margin:0
+        }
+
+    }
+    @media screen and (max-width: 999px) and (min-width: 651px) {
+        #badbitJackpot{
+            padding:0;
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            /*min-height: 250px;*/
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+    }
+    @media screen and (max-width: 1300px) and (min-width: 1000px) {
+        #badbitJackpot{
+            padding:0;
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            /*min-height: 250px;*/
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
     }
 </style>

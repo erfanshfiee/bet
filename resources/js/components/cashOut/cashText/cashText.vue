@@ -47,4 +47,28 @@
         font-size: 20pt;
         font-weight: 600;
     }
+    @media screen and (min-width: 320px) and (max-width: 650px){
+        #cash-text-wrapper{
+            display: flex;
+            order:2;
+            flex-direction: column;
+        }
+        #cash-text-wrapper button{
+            order:2
+        }
+        #cash-text-wrapper div{
+            order:1
+        }
+        #cash-out-ways{
+            order:1
+        }
+        #cash-text{
+            display: flex;
+            flex-direction: column;
+        }
+        #cash-text-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>

@@ -7,19 +7,17 @@
             <p class="title">:لینک دعوت</p>
         </div>
         <div id="invite-link" class="main-items">
-            <p>https:\\www.bellagio.com</p>
+            <p>https:\\www.bellagio.com/sssssssssssssssssssssssssssssss</p>
         </div>
-        <invites-table></invites-table>
+
     </div>
 </template>
 
 <script>
-    import invitesTable from "../invitesTable/invitesTable";
+
     export default {
         name: "inviteText",
-        components:{
-            invitesTable
-        }
+
     }
 </script>
 
@@ -32,6 +30,8 @@
         width:95%;
         padding:10px;
         border-radius: 15px;
+        margin: auto;
+        overflow: auto;
     }
     p{
         font-size:15pt;

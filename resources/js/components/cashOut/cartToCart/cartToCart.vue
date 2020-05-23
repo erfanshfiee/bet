@@ -90,4 +90,56 @@
     #cart-to-cart{
         grid-area: cart-to-cart;
     }
+    @media screen and (min-width: 320px) and (max-width: 580px) {
+        #cart-to-cart{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        #cart-to-cart-wrapper{
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #describe{
+        }
+        #describe p{
+        }
+        .display{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+
+        }
+        form
+        {
+            width: 100%;
+        }
+        input{
+            max-width: 250px;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+    @media screen and (min-width: 881px) and (max-width: 1365px){
+        #cart-to-cart-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .display{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+        }
+    }
 </style>

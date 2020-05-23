@@ -37,11 +37,9 @@
                 <p>Total:</p>
                 <div id="table-total-form">
                     <p>54,88</p>
-                    <form>
-                        <button>
+                        <a href="#">
                             دریافت کمیسیون
-                        </button>
-                    </form>
+                        </a>
                 </div>
             </div>
         </div>
@@ -62,12 +60,14 @@
     #table-total-form p{
         margin-right: 10px;
     }
-    #table-total-form button{
+    #table-total-form a{
         background:rgb(223,149,120);
         border:0;
         border-radius: 30px;
+        text-decoration: none;
         padding:5px 10px 5px 10px;
         text-align: center;
+        width: max-content;
     }
     #table-total{
         margin-left: 500px;
@@ -75,11 +75,13 @@
     }
     table tbody tr:nth-child(even)
     {
-        background: rgb(19,32,40);
+        background: rgb(19,32,40) !important;
+        width: 100%;
     }
     table tbody tr:nth-child(odd)
     {
-        background: rgb(0,9,14);
+        background: rgb(0,9,14) !important;
+        width: 100%;
     }
     tr{
         height: 30px;
@@ -126,5 +128,30 @@
     }
     .commission{
         color:rgb(119,205,94)
+    }
+    @media screen and (min-width:320px ) {
+        #invites-table{
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #table{
+            max-width: 100%;
+            overflow: auto;
+            margin: 0;
+            display: flex;
+        }
+        table{
+            max-width: 100%;
+        }
+        td,th{
+            padding: 0 30px 0 30px;
+        }
+        #table-total{
+            margin: 0;
+        }
+
     }
 </style>

@@ -20,6 +20,7 @@
 <style scoped>
     #index-wrapper{
         background: rgb(0,16,24);
+        justify-items: center;
         /*display: grid;*/
         /*grid-template-columns: repeat(12,1fr);*/
     }

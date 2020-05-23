@@ -4,7 +4,7 @@
             <button>تراکنش ها</button>
             <div>
                 <h1>برداشت وجه</h1>
-                <p id="cash-hint"><span>  توجه: </span>برداشت وجه فقط با روشی که شمه واریز انجام داده ای <br> امکان پدیر است</p>
+                <p id="cash-hint"><span>  توجه: </span>برداشت وجه فقط با روشی که شمه واریز انجام داده ای <br> امکان پذیر است</p>
             </div>
         </div>
         <p id="cash-out-ways">:روش های پرداخت</p>
@@ -18,6 +18,30 @@
 </script>
 
 <style scoped>
+    @media screen and (min-width: 320px) and (max-width: 650px){
+        #cash-text-wrapper{
+            display: flex;
+            order:2;
+            flex-direction: column;
+        }
+        #cash-text-wrapper button{
+            order:2
+        }
+        #cash-text-wrapper div{
+            order:1
+        }
+        #cash-out-ways{
+            order:1
+        }
+        #cash-text{
+            display: flex;
+            flex-direction: column;
+        }
+        #cash-text-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+    }
     #cash-text-wrapper{
         text-align: right;
         display: flex;
@@ -46,5 +70,29 @@
     #cash-out-ways{
         font-size: 20pt;
         font-weight: 600;
+    }
+    @media screen and (min-width: 320px) and (max-width: 650px){
+        #cash-text-wrapper{
+            display: flex;
+            order:2;
+            flex-direction: column;
+        }
+        #cash-text-wrapper button{
+            order:2
+        }
+        #cash-text-wrapper div{
+            order:1
+        }
+        #cash-out-ways{
+            order:1
+        }
+        #cash-text{
+            display: flex;
+            flex-direction: column;
+        }
+        #cash-text-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
     }
 </style>

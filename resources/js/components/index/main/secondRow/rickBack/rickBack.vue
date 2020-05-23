@@ -52,7 +52,7 @@
     #rickBack{
         display: flex;
         flex-direction: column;
-        margin-right: 20px;
+        width: 100%;
     }
     #rick-img{
         margin-right: 40px;
@@ -83,5 +83,71 @@
     }
     #rick-content-price{
         color:rgb(70,165,143)
+    }
+    @media screen and (min-width: 320px) and (max-width: 650px) {
+        #rickBack{
+            height: max-content;
+            padding:0;
+            margin:0;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: flex-end;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        #rick-hint{
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        #rick-img{
+            margin-right: 0;
+        }
+    }
+    @media screen and (min-width: 651px) and (max-width: 999px) {
+        #rickBack{
+            height: max-content;
+            padding:0;
+            margin:0;
+            min-height: 100%;
+            max-height: 100%;
+            justify-content: center;
+            align-items: flex-end;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        #rick-hint{
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        #rick-img{
+            margin-right: 0;
+        }
+    }
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        #rickBack{
+            height: max-content;
+            padding:0;
+            margin:0;
+            min-height: 100%;
+            max-height: 100%;
+            justify-content: center;
+            align-items: flex-end;
+            max-width: 100%;
+            margin-left: auto;
+            min-width: 100%;
+        }
+        #rick-hint{
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        #rick-img{
+            margin-right: 0;
+        }
     }
 </style>

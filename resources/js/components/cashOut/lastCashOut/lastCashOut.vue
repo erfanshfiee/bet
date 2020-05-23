@@ -32,7 +32,15 @@
 
 <script>
     export default {
-        name: "lastCashOut"
+        name: "lastCashOut",
+        mounted() {
+            if(window.innerWidth<1366)
+            {
+                const tr=document.getElementsByTagName("tr")[0]
+                document.querySelector("#table").style.width=tr.clientWidth+"px"
+
+            }
+        }
     }
 </script>
 
@@ -88,13 +96,55 @@
         fill:rgb(156,64,67)
     }
     #last-cash-out{
-        width:100%;
         max-width: max-content;
         display: flex;
-        margin-right: 0;
+        margin-left:auto;
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-end;
         grid-area: last-cash-out;
+    }
+    @media screen  and (min-width: 320px) and (max-width: 580px){
+        #last-cash-out{
+            max-width: 100%;
+            overflow: auto;
+        }
+        #table{
+            padding:0;
+            margin: auto;
+            background: rgb(0,15,22);
+            border-radius: 20px;
+            text-align: center;
+        }
+        table{
+            margin-left: 0;
+        }
+    }
+    @media screen  and (min-width: 581px) and (max-width: 880px){
+        #last-cash-out{
+            max-width: 100%;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #table{
+            padding:0;
+            margin: auto;
+            background: rgb(0,15,22);
+            border-radius: 20px;
+            text-align: center;
+        }
+        table{
+            margin-left: 0;
+        }
+    }
+    @media screen  and (min-width: 881px) and (max-width: 1300px){
+        #table{
+            padding: 20px;
+        }
+        #last-cash-out{
+            margin: 0;
+        }
     }
 </style>

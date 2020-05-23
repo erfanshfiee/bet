@@ -46,7 +46,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-
     }
     .display{
         margin-top:30px;
@@ -63,4 +62,46 @@
     #woocher{
         grid-area: woocher;
     }
+
+    @media screen and (min-width: 320px) and (max-width: 580px) {
+        #woocher{
+            width: 100%;
+            display: flex;
+            height: 100%;
+            justify-content: flex-start;
+        }
+        #woocher-wrapper{
+            min-width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #describe p{
+        }
+        .display{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+
+        }
+        form
+        {
+            height: 100%;
+            width: 100%;
+        }
+        input{
+            max-width: 250px;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (min-width: 581px) and (max-width: 880px) {
+
+    }
+
+
 </style>

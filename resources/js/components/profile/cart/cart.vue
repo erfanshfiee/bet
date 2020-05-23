@@ -93,7 +93,8 @@
     }
     #cart{
         grid-area: cart;
-        width:400px;
+        max-width:400px;
+
         text-align: right;
         display: flex;
         flex-direction: column;
@@ -115,11 +116,13 @@
         justify-content: center;
         align-items: center;
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 799px) {
         #cart{
+            padding:0;
             padding-bottom: 20px;
-            width: 100%;
+            width: calc(100%);
             display: flex;
+            margin-top: 40px;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -129,13 +132,13 @@
             font-size: 18pt;
         }
         #shetab-wrapper{
-            width: 320px;
+
             display: flex;
             justify-content: center;
             align-items: center;
         }
         #shetab{
-            width: 100%;
+
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -143,7 +146,8 @@
             margin:auto;
         }
         #roshan{
-            max-width: 400px;
+            min-width: 100%;
+            max-width: 100%;
         }
     }
 </style>
