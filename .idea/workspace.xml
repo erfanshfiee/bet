@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6504933c-4022-493a-89a2-91c25b7e7cb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/bitCoin/bitCoin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/bitCoin/bitCoin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/cartToCart/cartToCart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/cartToCart/cartToCart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/cashOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/cashOut.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/cashText/cashText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/cashText/cashText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/lastCashOut/lastCashOut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/lastCashOut/lastCashOut.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/cashOut/woocher/woocher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/cashOut/woocher/woocher.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/bitcoin/bitcoin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/bitcoin/bitcoin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/cartToCart/cartToCart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/cartToCart/cartToCart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/depositText/depositText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/depositText/depositText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/deposite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/deposite.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/lastDeposit/lastDeposit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/lastDeposit/lastDeposit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/deposit/woocher/woocher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/deposit/woocher/woocher.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/games/blackJac/blackJac.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/games/blackJac/blackJac.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/games/main/mainGames.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/games/main/mainGames.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/games/poker/poker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/games/poker/poker.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/games/roulette/roulette.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/games/roulette/roulette.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/games/videoPoker/videoPoker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/games/videoPoker/videoPoker.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/firstRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/firstRow.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/newEx/newEx.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/newEx/newEx.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/profile/profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/firstRow/profile/profile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/badbitJacpot/badbitJacpot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/badbitJacpot/badbitJacpot.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/nextToornament/nextToornament.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/nextToornament/nextToornament.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/rickBack/rickBack.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/rickBack/rickBack.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/secondRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/secondRow/secondRow.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/index/main/wrapper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/index/main/wrapper.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/invite/invite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/invite/invite.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/invite/invitesTable/invitesTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/invite/invitesTable/invitesTable.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/invite/text/inviteText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/invite/text/inviteText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/profile/cart/cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/profile/cart/cart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/profile/changePassword/changePassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/profile/changePassword/changePassword.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/profile/information/information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/profile/information/information.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/profile/profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/profile/profile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/template/header/navigation/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/header/navigation/navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/template/header/text/customeText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/header/text/customeText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/myMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/myMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/subMenu/cartToCartList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/subMenu/cartToCartList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/topHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/header/topHeader/topHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/template/footer/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/template/footer/footer.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +195,7 @@
       <workItem from="1589829289428" duration="28333000" />
       <workItem from="1590001051110" duration="1281000" />
       <workItem from="1590007798659" duration="94008000" />
-      <workItem from="1590213718501" duration="1860000" />
+      <workItem from="1590213718501" duration="2655000" />
     </task>
     <servers />
   </component>

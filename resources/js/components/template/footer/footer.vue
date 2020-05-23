@@ -1,12 +1,23 @@
 <template>
     <div id="footer">
-        <p>&copy; Copyright Bellagio 2020</p>
+        <p>&copy; Copyright Bellagio {{date}}</p>
     </div>
 </template>
 
 <script>
     export default {
-        name: "myfooter"
+        name: "myfooter",
+        data()
+        {
+            return{
+                date:null
+            }
+        },
+        mounted() {
+            const date=new Date()
+            const year=date.getFullYear()
+            this.date=year
+        }
     }
 </script>
 

@@ -3261,7 +3261,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "myfooter"
+  name: "myfooter",
+  data: function data() {
+    return {
+      date: null
+    };
+  },
+  mounted: function mounted() {
+    var date = new Date();
+    var year = date.getFullYear();
+    this.date = year;
+  }
 });
 
 /***/ }),
@@ -8851,18 +8861,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { attrs: { id: "footer" } }, [
+    _c("p", [_vm._v("© Copyright Bellagio " + _vm._s(_vm.date))])
+  ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "footer" } }, [
-      _c("p", [_vm._v("© Copyright Bellagio 2020")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
